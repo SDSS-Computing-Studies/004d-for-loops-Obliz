@@ -38,12 +38,12 @@ Enter a number: -4
 Invalid input
 """
 
-num=int(input("Enter a number: "))
-num1=0
-num2=1
+x = int(input("Enter a number: "))
+y = 1
+strx = str(x)
 
-for i in range (0,num):
-    num1=num.i
-    num2=num1*num2
+for i in range(1, x+1):
+    y = y*i
 
-    print(str(num)+"i is "+str(num2) +" where " +str(num)+" is the integar entered and " +str(num2)+ " is the calculated answer")
+stry = str(y)
+print(strx + "! is " + stry)
