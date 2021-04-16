@@ -22,6 +22,7 @@ enter a number:4
 ****
 
 """
+<<<<<<< HEAD
 number = int(input("Enter a number: "))
 star = str("*")
 
