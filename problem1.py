@@ -22,9 +22,17 @@ enter a number:4
 ****
 
 """
-<<<<<<< HEAD
-number = int(input("Enter a number: "))
-star = str("*")
+h= input("Enter a number:")
 
-for i in range(number):
-    print(star*number)
+
+h= int(h)
+
+
+print(h*"*")
+
+y= h-2
+x= h-2
+for i in range(0, x):
+    print("*" + y*"*" + "*")
+
+print(h*"*")
